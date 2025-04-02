@@ -1,0 +1,11 @@
+com/example/javapoc2/dto/response/CategoryAStat.class
+com/example/javapoc2/dto/response/CategoryBStat.class
+com/example/javapoc2/JavaPoc2Application.class
+com/example/javapoc2/dto/response/ProductStatsResponse.class
+com/example/javapoc2/controller/ProductController.class
+com/example/javapoc2/dto/response/CategoryCStat.class
+com/example/javapoc2/service/ProductService.class
+com/example/javapoc2/repository/ProductRepository.class
+com/example/javapoc2/entity/Product.class
+com/example/javapoc2/dto/repository/ProductGroupResult.class
+com/example/javapoc2/dto/response/TotalStat.class

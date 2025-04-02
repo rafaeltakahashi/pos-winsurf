@@ -1,0 +1,11 @@
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/JavaPoc2Application.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/controller/ProductController.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/repository/ProductGroupResult.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/response/CategoryAStat.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/response/CategoryBStat.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/response/CategoryCStat.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/response/ProductStatsResponse.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/dto/response/TotalStat.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/entity/Product.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/repository/ProductRepository.java
+/Users/rafaeltakahashi/git/grouping_sets/java-poc-2/src/main/java/com/example/javapoc2/service/ProductService.java

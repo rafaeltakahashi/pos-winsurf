@@ -1,0 +1,10 @@
+[package]
+name = "rust-nonlinear-regression"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+levenberg-marquardt = "0.13.0"
+nalgebra = "0.32.3"
+num-traits = "0.2.17"
+rand = "0.8.5"
