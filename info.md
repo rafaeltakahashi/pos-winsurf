@@ -48,6 +48,12 @@ In order to verify the behavior more reliably, please write a new Junit test for
 
 > Sometimes it just says "done." and stops.
 
+> A few more prompts with Geini 2.5 Pro were successful. It looped fixing errors until the tests passed. Asking for a new integration test was better for finding and fixing errors in code:
+
+Let's try using an integration test instead. We have a ProductServiceTest.java file already, but you can create other files if that would allow keeping the integration tests separate (ideally being able to run it separately in maven as well, but that's less important at the moment). The new test should do the same thing, verifying that the ProductService's method getProductStats() behaves without errors, but this time using the actual repository that connects to the Postgres database.
+
+> It wrote the integration test, saw that it failed, then understood that it should fix the code (all in one prompt).
+
 ### rust-poc-3
 
 > Using levenberg-marquadt for non-linear regression.
