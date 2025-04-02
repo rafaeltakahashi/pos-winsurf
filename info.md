@@ -1,11 +1,11 @@
 ### java-poc-1
 
-Spring, maven, native query with grouping sets.
-Created with Windsurf on openai o3-mini medium. Didn't work, quickly threw it away.
+> Spring, maven, native query with grouping sets.
+> Created with Windsurf on openai o3-mini medium. Didn't work, quickly threw it away.
 
 ### java-poc-2
 
-Created with Windsurf on Gemini 2.5 Pro, worked a lot better. Used the same initial prompt.
+> Created with Windsurf on Gemini 2.5 Pro, worked a lot better. Used the same initial prompt:
 
 Make a new Java project in this empty directory with Java 23, Maven and Spring Boot that connects to a Postgres database at localhost:5432 (database=postgres, username=postgres, password=pocpoc) and then automatically creates a table for a Product entity if it doesn't exist; the entity is as follows:
 
@@ -46,14 +46,14 @@ In order to verify the behavior more reliably, please write a new Junit test for
 > Error. Needed to reset the chat.
 > Then, it wrote a unit test that didn't find the problem in the ProductRepository. That's fine, I suppose, since I didn't explicitly ask for an integration test.
 
-Sometimes it just says "done."
+> Sometimes it just says "done." and stops.
 
 ### rust-poc-3
 
-Using levenberg-marquadt for non-linear regression.
-Gemini 2.5 Pro was really struggling. Tried three times, it always gives up with "done".
+> Using levenberg-marquadt for non-linear regression.
+> Gemini 2.5 Pro was really struggling. Tried three times, it always gives up with "done".
 
-Trying with Claude 3.7 (regular). Worked much better, loops correctly attempting to solve the problem and outputs a working solution with one prompt:
+> Trying with Claude 3.7 (regular). Worked much better, loops correctly attempting to solve the problem and outputs a working solution with one prompt:
 
 Create a new rust project in this directory with the following objective:
 
@@ -75,7 +75,7 @@ When ran, the program should find and output the coefficients a, b, and c that r
 
 It's important that the DynamicallySizedProblem struct should be able to solve arbitrary least-squares problems, not just the regression we're using as an example.
 
-I used a second prompt telling it to separate the generic part of the program into a separate file, which it did successfully, and then a third prompt to introduce a categorical variable:
+> I used a second prompt telling it to separate the generic part of the program into a separate file, which it did successfully, and then a third prompt to introduce a categorical variable:
 
 Let's use a different example in the main file now. Instead of the current objective function and observations, we will use the following problem:
 
@@ -94,4 +94,4 @@ The unknowns are the coefficients a, b and c, as well as each modifier associate
 
 Replace the current example in main.rs with the one described in this message. Because the code in problem_solver.rs uses least squares to solve arbitrary non-linear problems expressed with an array of residuals, modifications to it are not expected, but fixes may be necessary if you identify unexpected behavior. Let me know if you need more information to proceed.
 
-The code works better than Excel's solver.
+> The code works better than Excel's solver.
