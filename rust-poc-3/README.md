@@ -7,6 +7,12 @@ This Rust project implements a flexible non-linear regression solver using the L
 - Generic implementation that can handle any non-linear regression problem
 - Support for both analytical and numerical Jacobian computation
 - Example implementation of a linear regression problem
+- Modular design with separation of solver logic and application code
+
+## Project Structure
+
+- `src/problem_solver.rs`: Contains the core `DynamicallySizedProblem` implementation
+- `src/main.rs`: Contains an example application using the solver
 
 ## Example
 
