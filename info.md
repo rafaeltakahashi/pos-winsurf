@@ -65,7 +65,7 @@ Create a new rust project in this directory with the following objective:
 
 **Use the levenberg_marquardt library to write a program that solves non-linear regression problems using least-squares.**
 
-To validate the program, we will use an example non-regression problem defined by:
+To validate the program, we will use an example regression problem defined by:
 
 `f(x, y, z) = a*x + b*y + cat`
 
